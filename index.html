@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Modern Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="highlight">Raj Dey</span></h1>
+      <p>A passionate <span class="highlight">Web Developer</span> crafting modern & responsive websites.</p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+    <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Profile Picture" class="profile-pic"/>
+  </section>
+  <section id="about" class="about section">
+    <h2>About Me</h2>
+    <p>
+      I'm a web developer with a keen eye for design and a love for creating dynamic, user-friendly experiences. 
+      My focus is on building clean, modern, and responsive interfaces with HTML, CSS, and JavaScript.
+    </p>
+  </section>
+  <section id="projects" class="projects section">
+    <h2>Projects</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>A modern landing page with interactive elements and smooth transitions.</p>
+        <a href="#" class="card-link">View Details</a>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Responsive dashboard UI with charts and widgets, built for mobile and desktop.</p>
+        <a href="#" class="card-link">View Details</a>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Personal blog website with a focus on readability and accessibility.</p>
+        <a href="#" class="card-link">View Details</a>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills section">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-card">HTML5</div>
+      <div class="skill-card">CSS3</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Responsive Design</div>
+      <div class="skill-card">UI/UX</div>
+      <div class="skill-card">Git</div>
+    </div>
+  </section>
+  <section id="contact" class="contact section">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" name="name" required/>
+      <input type="email" placeholder="Email" name="email" required/>
+      <textarea placeholder="Your message" name="message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: noe.email@example.com</p>
+      <p>Location: Panihati, India</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Noe. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
